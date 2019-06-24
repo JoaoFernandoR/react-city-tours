@@ -1,0 +1,14 @@
+@import "../../estilos.scss";
+
+.navbar {
+    background: $mainBlack;
+}
+
+.nav-link {
+    color: $mainGreen;
+    font-size : 1.8rem;
+    &:hover {
+    color: $mainWhite;
+    transition : all 1s linear; 
+    }
+}
